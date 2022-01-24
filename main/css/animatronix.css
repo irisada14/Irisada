@@ -1,0 +1,24 @@
+/* Animaciones css */
+
+.slidein-left{
+	animation-duration: 2s;
+	animation-name: an;
+	animation-direction: left;
+}
+@keyframes an{
+	from{ margin-left: 100%; }
+	to { margin-left: 0px; }
+}
+
+.fade {
+  animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
